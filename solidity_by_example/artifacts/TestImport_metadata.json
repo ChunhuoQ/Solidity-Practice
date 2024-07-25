@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "studentInfos",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "grade",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "isPass",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "gender",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity_by_example/019TestImportStruct.sol": "TestImport"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity_by_example/018StructDelcartion.sol": {
+			"keccak256": "0x1cb09cc9936e54ab0089e0dea8e8b6a59dd857c39db8fefebde1e8af4ff8780a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://17485aea50374de21650751773f94440e96f91a338f733c7c484bfe8592de73d",
+				"dweb:/ipfs/QmeVDhbUDaQZbncPSZ56HDA4BaGsByGVCACTukWHaTjPeZ"
+			]
+		},
+		"solidity_by_example/019TestImportStruct.sol": {
+			"keccak256": "0x6b3a30a502760b446d529aec54081e4d6f93bf69ec1b7ec1f8e9b62b95df070e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b962be1fa2230d73f9dbe0d8c63826600babbb8999f00f5d727df953736d186e",
+				"dweb:/ipfs/Qmb4LwLoJCDs7D6fjtxUfPvvb4jFhygA61jWXr7pJ2Aoyo"
+			]
+		}
+	},
+	"version": 1
+}
